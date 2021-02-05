@@ -9,6 +9,8 @@ SNScrape is used to scrape tweets, in order to use this scraper the Python Envir
 
 ## Model
 The neural network model is built using LSTM. Through LSTM the semantic of a sentence is preserved through words. The model is built on TensorFlow framework. The dataset used for training contains 1,578,000 tweets with its sentiment with 80-20 training-test split ratio. The model is trained for 8 iterations and the model achieved 85.41% accuracy, 0.3342 loss, 83.28% validation accuracy, and 0.3791 validation loss (indicating slight overfitting).
+<p>&nbsp;</p>
 
 ## Sentiment Analysis
 Through sentiment analysis, there are more positive sentiments than negative sentiments for both candidates but out of 15,000 tweets Joe Biden receives more positive sentiment compared to Donald Trump. The tweets also visualized in wordcloud, indicating that Joe Biden is more favorable which seen through word 'Win' appear the biggest in Joe Biden's wordcloud.
+<p>&nbsp;</p>
